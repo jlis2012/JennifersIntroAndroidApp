@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jennifersintroapp">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,9 +14,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".InformationResultsActivity"></activity>
-        <activity android:name=".InformationPageActivity" />
-        <activity android:name=".TicTacToeActivity" />
+        <activity
+            android:name=".TakePictureActivity"
+            android:label="TakePictureActivity"/>
+
+        <activity
+            android:name=".SongActivity"
+            android:label="SongActivity"
+            android:screenOrientation="landscape"/>
+
+        <activity
+            android:name=".InformationResultsActivity"
+            android:label="InformationResultsActivity"/>
+
+        <activity android:name=".InformationPageActivity"
+            android:label="InformationPageActivity"/>
+
+        <activity android:name=".TicTacToeActivity"
+            android:label="TicTacToeActivity"/>
+
         <activity android:name=".MainMenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,8 +40,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WeatherActivity" />
-        <activity android:name=".MyDrawing" />
+        <activity android:name=".WeatherActivity"
+            android:label="WeatherActivity"/>
+
+        <activity android:name=".MyDrawing"
+            android:label="MyDrawingActivity" />
+
     </application>
 
 </manifest>

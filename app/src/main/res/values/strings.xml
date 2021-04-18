@@ -33,6 +33,8 @@
     </string-array>
     <string name="textOn">yes</string>
     <string name="textOff">no</string>
-    <string name ="savebutton">Save</string>
-    <string name ="Main">Main</string>
+    <string name="savebutton">Save</string>
+    <string name="Main">Main</string>
+    <string name="takePic">Take Pic</string>
+    <string name="imgDescription">Camera</string>
 </resources>
