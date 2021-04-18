@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">JennifersIntroApp</string>
+    <string name="DegF">Degrees Fahrenheit</string>
+    <string name="DegC">Degrees Celsius</string>
+    <string name="DegK">Degrees Kelvin</string>
+    <string name="convert">Convert</string>
+    <string name="tempChoose">Choose Your Temperature</string>
+    <string name="Temp">Please input the temperature and select the desired units and press convert. </string>
+    <string name="Welcome">Welcome to Jennifer\'s App</string>
+    <string name="goWeather">Convert\nTemp</string>
+    <string name="goTicTacToe">Tic Tac Toe</string>
+    <string name="goInfo">Info</string>
+    <string name="goMusic">Favorite\nSong</string>
+    <string name="goTakePic">Take\nPicture</string>
+    <string name="goDraw">My\nDrawing</string>
+    <string name="mainMenu">Main Menu</string>
+    <string name="exit">Exit</string>
+    <string name="settings">Settings</string>
+    <string name="txtFavPoke">My Favorite Pokemon</string>
+    <string name="stringResource">Pokemon</string>
+    <string name="message_label">Player X\'s turn</string>
+    <string name="new_game_button">New Game</string>
+    <string name="informationTitle">Your Information</string>
+    <string name="favoriteSeason">What is your favorite season?</string>
+    <string name="favoriteTemp">What is your favorite temperature?</string>
+    <string name="spinnerMax">120</string>
+    <string name="allergies">Do you have allergies?</string>
+    <string-array name="seasons">
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Fall</item>
+        <item>Winter</item>
+    </string-array>
+    <string name="textOn">yes</string>
+    <string name="textOff">no</string>
+    <string name ="savebutton">Save</string>
+    <string name ="Main">Main</string>
+</resources>

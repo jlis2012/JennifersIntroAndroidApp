@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".WeatherActivity">
+<item
+    android:id="@+id/mnuMain"
+    android:title="@string/mainMenu"
+    app:showAsAction="never" />
+<item
+    android:id="@+id/mnuExit"
+    android:title="@string/exit"
+    app:showAsAction="never" />
+<item
+    android:id="@+id/mnuSettings"
+    android:title="@string/settings"
+    app:showAsAction="never" />
+</menu>
